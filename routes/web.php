@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/inscripcion', function () {
+Route::get('/informacion', function () {
     return view('datos');
+});
+Route::get('/inscripcion', function () {
+    return view('inscripcion');
+});
+Route::get('/adicion', function () {
+    return view('datadicion');
+});
+Route::get('/confirmacion', function () {
+    return view('confirmacion');
 });

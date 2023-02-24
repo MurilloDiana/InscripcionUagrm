@@ -106,13 +106,13 @@
                         </div>
                     </li>
                     <li >
-                        <a href=""><i class="fa fa-home"></i> <span class="nav-label">Home </span></a>
+                        <a href="{{ url('informacion') }}"><i class="fa fa-home"></i> <span class="nav-label">Home </span></a>
                     </li>
                     <li >
-                        <a href=""><i class="fa fa-home"></i> <span class="nav-label">Inscripcion </span></a>
+                        <a href="{{ url('inscripcion') }}"><i class="fa fa-home"></i> <span class="nav-label">Inscripcion </span></a>
                     </li>
                     <li >
-                        <a href=""><i class="fa fa-home"></i> <span class="nav-label">Adicion </span></a>
+                        <a href="{{ url('adicion') }}"><i class="fa fa-home"></i> <span class="nav-label">Adicion </span></a>
                     </li>
                     
                 </ul>

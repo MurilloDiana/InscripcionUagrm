@@ -35,7 +35,7 @@
                 </div>
                
                 
-                <a type="submit" class="btn btn-primary block full-width m-b" href="{{ url('inscripcion') }}">Login</a>
+                <a type="submit" class="btn btn-primary block full-width m-b" href="{{ url('informacion') }}">Login</a>
                 
             </form>
             <p class="m-t"> <small>IHC&copy; 2023</small> </p>

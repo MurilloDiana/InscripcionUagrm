@@ -65,7 +65,7 @@
                     </table>  
                     <table>
                         <tbody>
-                            <th>¿Desea habilitar su levantaminto de materias?</th>
+                            <th>¿Desea habilitar su levantamiento de materias?</th>
                             <th><a class="btn btn-primary" href="">SI</a> 
                                 <a class="btn btn-warning" href="">NO</a>      
                                
