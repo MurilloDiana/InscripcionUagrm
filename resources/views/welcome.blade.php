@@ -21,12 +21,12 @@
     <div class="middle-box text-center loginscreen animated fadeInDown">
         <div>
             <div>
-                <img src="{{asset('img/logo.jpg')}}" alt="" style="width:400px">
+                <img src="{{asset('img/logo.jpg')}}" alt="" width="300" height="300">
             </div>
             <h3>Bienvenidos al Sistema de Inscripciones UAGRM</h3>
             <p>Iniciar Sesi&oacute;n</p>
             <form class="m-t" role="form" action="" method="post">
-                @csrf
+                
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Usuario" required="" name="login">
                 </div>
@@ -34,7 +34,8 @@
                     <input type="password" class="form-control" placeholder="Password" required="" name="password">
                 </div>
                
-                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+                
+                <a type="submit" class="btn btn-primary block full-width m-b" href="{{ url('inscripcion') }}">Login</a>
                 
             </form>
             <p class="m-t"> <small>IHC&copy; 2023</small> </p>

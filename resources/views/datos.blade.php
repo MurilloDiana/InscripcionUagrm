@@ -16,7 +16,7 @@
         <div class="col-lg-12">
             <div class="ibox ">
                 <div class="ibox-title">
-                    <a class="btn btn-primary" href="">Agregar</a>
+                    <a class="btn btn-primary" href="{{ url('inscripcion') }}">Inscripcion</a>
                     <div class="ibox-tools"><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></div>
                 </div>
                 <div class="ibox-content">
@@ -46,6 +46,30 @@
                                     <td>INF-123</td>
                                     <td>Lenguajes Formales</td>
                                     <td>5</td>
+                                    
+                                   
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>INF-123</td>
+                                    <td>Sistemas Expertos</td>
+                                    <td>8</td>
+                                    
+                                   
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>INF-123</td>
+                                    <td>Redes I</td>
+                                    <td>7</td>
+                                    
+                                   
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>INF-123</td>
+                                    <td>Ssistema de Informacion I</td>
+                                    <td>6</td>
                                     
                                    
                                 </tr>
